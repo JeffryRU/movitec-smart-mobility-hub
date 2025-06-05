@@ -6,20 +6,20 @@ const Features = () => {
   const features = [
     {
       icon: <Bus className="w-12 h-12 text-movitec-blue" />,
-      title: "Real-Time Bus Tracking",
-      description: "Know exactly when your bus will arrive with live GPS tracking and accurate predictions.",
+      title: "Seguimiento de Autobuses en Tiempo Real",
+      description: "Sabe exactamente cuándo llegará tu autobús con seguimiento GPS en vivo y predicciones precisas.",
       color: "from-movitec-blue to-blue-600"
     },
     {
       icon: <QrCode className="w-12 h-12 text-movitec-orange" />,
-      title: "QR Code Payments",
-      description: "Pay instantly with secure QR code scanning. No more cash, no more cards, just convenience.",
+      title: "Pagos con Código QR",
+      description: "Paga al instante con escaneo seguro de código QR. Sin efectivo, sin tarjetas, solo comodidad.",
       color: "from-movitec-orange to-orange-500"
     },
     {
       icon: <MapPin className="w-12 h-12 text-movitec-celeste" />,
-      title: "MoviCoins Loyalty",
-      description: "Earn MoviCoins with every trip and unlock exclusive rewards and discounts.",
+      title: "Fidelización MoviCoins",
+      description: "Gana MoviCoins con cada viaje y desbloquea recompensas exclusivas y descuentos.",
       color: "from-cyan-400 to-movitec-celeste"
     }
   ];
@@ -29,11 +29,11 @@ const Features = () => {
       <div className="container mx-auto px-6">
         <div className="text-center mb-16">
           <h2 className="text-4xl md:text-5xl font-bold text-gray-900 mb-6">
-            Why Choose MoviTec?
+            ¿Por Qué Elegir MoviTec?
           </h2>
           <p className="text-xl text-gray-600 max-w-3xl mx-auto">
-            Experience the next generation of urban transportation with features designed 
-            for modern commuters.
+            Experimenta la próxima generación de transporte urbano con características diseñadas 
+            para los viajeros modernos.
           </p>
         </div>
         

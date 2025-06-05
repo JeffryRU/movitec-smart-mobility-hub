@@ -1,27 +1,28 @@
+
 import { Users, Ticket, Bus } from "lucide-react";
 
 const Benefits = () => {
   const userTypes = [
     {
       icon: <Users className="w-16 h-16 text-movitec-blue" />,
-      title: "For Commuters",
+      title: "Para Viajeros",
       benefits: [
-        "Save time with real-time tracking",
-        "Earn rewards with MoviCoins",
-        "Cashless, contactless payments",
-        "Never miss your bus again"
+        "Ahorra tiempo con seguimiento en tiempo real",
+        "Gana recompensas con MoviCoins",
+        "Pagos sin efectivo y sin contacto",
+        "Nunca pierdas tu autobús de nuevo"
       ],
       bgColor: "bg-blue-50",
       borderColor: "border-movitec-blue"
     },
     {
       icon: <Bus className="w-16 h-16 text-movitec-orange" />,
-      title: "For Transport Companies",
+      title: "Para Empresas de Transporte",
       benefits: [
-        "Better revenue control",
-        "Improved customer relationships",
-        "Digital payment integration",
-        "Real-time operational data"
+        "Mejor control de ingresos",
+        "Relaciones mejoradas con clientes",
+        "Integración de pagos digitales",
+        "Datos operacionales en tiempo real"
       ],
       bgColor: "bg-orange-50",
       borderColor: "border-movitec-orange"
@@ -33,11 +34,11 @@ const Benefits = () => {
       <div className="container mx-auto px-6">
         <div className="text-center mb-16">
           <h2 className="text-4xl md:text-5xl font-bold text-gray-900 mb-6">
-            Built for Everyone
+            Diseñado para Todos
           </h2>
           <p className="text-xl text-gray-600 max-w-3xl mx-auto">
-            MoviTec creates value for both passengers and transport operators, 
-            building a better ecosystem for urban mobility.
+            MoviTec crea valor tanto para pasajeros como para operadores de transporte, 
+            construyendo un mejor ecosistema para la movilidad urbana.
           </p>
         </div>
         

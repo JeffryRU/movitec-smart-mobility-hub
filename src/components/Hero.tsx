@@ -14,15 +14,15 @@ const Hero = () => {
       <div className="container mx-auto px-6 text-center text-white relative z-10">
         <div className="animate-fade-in">
           <h1 className="text-5xl md:text-7xl font-bold mb-6 leading-tight">
-            The Future of 
+            El Futuro de la 
             <span className="block bg-gradient-to-r from-movitec-orange to-yellow-300 bg-clip-text text-transparent">
-              Smart Mobility
+              Movilidad Inteligente
             </span>
           </h1>
           
           <p className="text-xl md:text-2xl mb-8 max-w-3xl mx-auto text-blue-100">
-            Transform your daily commute with real-time bus tracking, digital payments, 
-            and our exclusive MoviCoins loyalty system.
+            Transforma tu viaje diario con seguimiento de autobuses en tiempo real, 
+            pagos digitales y nuestro exclusivo sistema de fidelización MoviCoins.
           </p>
           
           <div className="flex flex-col sm:flex-row gap-4 justify-center items-center">
@@ -30,14 +30,14 @@ const Hero = () => {
               size="lg" 
               className="bg-movitec-orange hover:bg-orange-500 text-white px-8 py-4 text-lg font-semibold rounded-full shadow-lg hover:shadow-xl transition-all duration-300 transform hover:scale-105"
             >
-              Download MoviTec
+              Descargar MoviTec
             </Button>
             <Button 
               variant="outline" 
               size="lg"
               className="border-2 border-white text-white hover:bg-white hover:text-movitec-blue px-8 py-4 text-lg font-semibold rounded-full transition-all duration-300"
             >
-              Watch Demo
+              Ver Demo
             </Button>
           </div>
         </div>
@@ -50,7 +50,7 @@ const Hero = () => {
                 <div className="w-16 h-16 bg-movitec-blue rounded-2xl mx-auto mb-4 flex items-center justify-center">
                   <span className="text-white font-bold text-xl">MT</span>
                 </div>
-                <p className="font-semibold">MoviTec App</p>
+                <p className="font-semibold">App MoviTec</p>
               </div>
             </div>
           </div>
