@@ -1,6 +1,5 @@
 
 import { Button } from "@/components/ui/button";
-import { Map, Bus } from "lucide-react";
 
 const Hero = () => {
   return (
@@ -14,16 +13,12 @@ const Hero = () => {
       
       <div className="container mx-auto px-6 text-center text-white relative z-10">
         <div className="animate-fade-in">
-          <div className="flex items-center justify-center gap-4 mb-6">
-            <Map className="w-16 h-16 md:w-20 md:h-20 text-white animate-float" />
-            <h1 className="text-5xl md:text-7xl font-bold leading-tight">
-              El Futuro de la 
-              <span className="block bg-gradient-to-r from-movitec-orange to-yellow-300 bg-clip-text text-transparent">
-                Movilidad Inteligente
-              </span>
-            </h1>
-            <Bus className="w-16 h-16 md:w-20 md:h-20 text-movitec-orange animate-float" style={{ animationDelay: '1s' }} />
-          </div>
+          <h1 className="text-5xl md:text-7xl font-bold mb-6 leading-tight">
+            El Futuro de la 
+            <span className="block bg-gradient-to-r from-movitec-orange to-yellow-300 bg-clip-text text-transparent">
+              Movilidad Inteligente
+            </span>
+          </h1>
           
           <p className="text-xl md:text-2xl mb-8 max-w-3xl mx-auto text-blue-100">
             Transforma tu viaje diario con seguimiento de autobuses en tiempo real, 
