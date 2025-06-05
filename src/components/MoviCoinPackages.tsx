@@ -57,11 +57,8 @@ const MoviCoinPackages = () => {
       <div className="container mx-auto px-6">
         <div className="text-center mb-16">
           <h2 className="text-4xl md:text-5xl font-bold text-gray-900 mb-6">
-            Viaja más, paga menos: descubre los Paquetes MoviCoin 🎫🚍
+            Viaja más, paga menos: descubre los Paquetes MoviCoin
           </h2>
-          <p className="text-xl text-gray-600 max-w-4xl mx-auto leading-relaxed">
-            Unlock more rides for less with our exclusive MoviCoin packages! With every trip you take using the MoviTec app, you earn MoviCoins — our digital points system that rewards your loyalty. Redeem them for discounted ride bundles, free trips, and special perks. Students get even more: verify your student ID or enrollment and enjoy exclusive pricing on our travel packages. Whether you're commuting daily or occasionally, there's a plan for you — save money, skip the cash, and ride smarter with MoviTec. The more you ride, the more you earn!
-          </p>
         </div>
         
         <div className="grid md:grid-cols-3 gap-8 max-w-7xl mx-auto">
