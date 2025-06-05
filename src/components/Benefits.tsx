@@ -1,5 +1,4 @@
-
-import { Users, Ticket } from "lucide-react";
+import { Users, Ticket, Bus } from "lucide-react";
 
 const Benefits = () => {
   const userTypes = [
