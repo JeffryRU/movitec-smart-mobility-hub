@@ -9,7 +9,7 @@ const Footer = () => {
               <div className="w-10 h-10 bg-movitec-blue rounded-lg flex items-center justify-center mr-3">
                 <span className="text-white font-bold text-lg">MT</span>
               </div>
-              <span className="text-2xl font-bold">MoviTec</span>
+              <span className="text-2xl font-bold text-white">MoviTec</span>
             </div>
             <p className="text-gray-400 mb-6 max-w-md">
               Transformando el transporte urbano a través de tecnología inteligente, 
@@ -17,19 +17,19 @@ const Footer = () => {
             </p>
             <div className="flex space-x-4">
               <div className="w-10 h-10 bg-gray-800 rounded-full flex items-center justify-center hover:bg-movitec-blue transition-colors cursor-pointer">
-                <span className="text-sm">📱</span>
+                <span className="text-sm text-white">📱</span>
               </div>
               <div className="w-10 h-10 bg-gray-800 rounded-full flex items-center justify-center hover:bg-movitec-blue transition-colors cursor-pointer">
-                <span className="text-sm">📧</span>
+                <span className="text-sm text-white">📧</span>
               </div>
               <div className="w-10 h-10 bg-gray-800 rounded-full flex items-center justify-center hover:bg-movitec-blue transition-colors cursor-pointer">
-                <span className="text-sm">🐦</span>
+                <span className="text-sm text-white">🐦</span>
               </div>
             </div>
           </div>
           
           <div>
-            <h4 className="text-lg font-semibold mb-4">Producto</h4>
+            <h4 className="text-lg font-semibold mb-4 text-white">Producto</h4>
             <ul className="space-y-2 text-gray-400">
               <li><a href="#" className="hover:text-white transition-colors">Características</a></li>
               <li><a href="#" className="hover:text-white transition-colors">MoviCoins</a></li>
@@ -39,7 +39,7 @@ const Footer = () => {
           </div>
           
           <div>
-            <h4 className="text-lg font-semibold mb-4">Empresa</h4>
+            <h4 className="text-lg font-semibold mb-4 text-white">Empresa</h4>
             <ul className="space-y-2 text-gray-400">
               <li><a href="#" className="hover:text-white transition-colors">Acerca de Nosotros</a></li>
               <li><a href="#" className="hover:text-white transition-colors">Carreras</a></li>

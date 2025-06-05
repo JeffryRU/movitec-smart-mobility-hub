@@ -28,14 +28,14 @@ const Hero = () => {
           <div className="flex flex-col sm:flex-row gap-4 justify-center items-center">
             <Button 
               size="lg" 
-              className="bg-movitec-orange hover:bg-orange-500 text-white px-8 py-4 text-lg font-semibold rounded-full shadow-lg hover:shadow-xl transition-all duration-300 transform hover:scale-105"
+              className="bg-movitec-orange hover:bg-orange-500 text-white font-semibold px-8 py-4 text-lg rounded-full shadow-lg hover:shadow-xl transition-all duration-300 transform hover:scale-105"
             >
               Descargar MoviTec
             </Button>
             <Button 
               variant="outline" 
               size="lg"
-              className="border-2 border-white text-white hover:bg-white hover:text-movitec-blue px-8 py-4 text-lg font-semibold rounded-full transition-all duration-300"
+              className="border-2 border-white text-white bg-transparent hover:bg-white hover:text-movitec-blue font-semibold px-8 py-4 text-lg rounded-full transition-all duration-300"
             >
               Ver Demo
             </Button>
@@ -50,7 +50,7 @@ const Hero = () => {
                 <div className="w-16 h-16 bg-movitec-blue rounded-2xl mx-auto mb-4 flex items-center justify-center">
                   <span className="text-white font-bold text-xl">MT</span>
                 </div>
-                <p className="font-semibold">App MoviTec</p>
+                <p className="font-semibold text-movitec-blue">App MoviTec</p>
               </div>
             </div>
           </div>

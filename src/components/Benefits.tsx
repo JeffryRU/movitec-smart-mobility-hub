@@ -61,7 +61,7 @@ const Benefits = () => {
                 {userType.benefits.map((benefit, benefitIndex) => (
                   <li key={benefitIndex} className="flex items-center">
                     <div className="w-3 h-3 bg-green-500 rounded-full mr-4 flex-shrink-0"></div>
-                    <span className="text-gray-700 text-lg">{benefit}</span>
+                    <span className="text-gray-700 text-lg font-medium">{benefit}</span>
                   </li>
                 ))}
               </ul>

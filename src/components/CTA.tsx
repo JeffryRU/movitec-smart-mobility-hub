@@ -17,21 +17,21 @@ const CTA = () => {
           <div className="flex flex-col sm:flex-row gap-4 justify-center items-center mb-12">
             <Button 
               size="lg" 
-              className="bg-movitec-orange hover:bg-orange-500 text-white px-10 py-4 text-lg font-semibold rounded-full shadow-lg hover:shadow-xl transition-all duration-300 transform hover:scale-105"
+              className="bg-movitec-orange hover:bg-orange-500 text-white font-bold px-10 py-4 text-lg rounded-full shadow-lg hover:shadow-xl transition-all duration-300 transform hover:scale-105"
             >
               Descargar para iOS
             </Button>
             <Button 
               size="lg" 
-              className="bg-movitec-orange hover:bg-orange-500 text-white px-10 py-4 text-lg font-semibold rounded-full shadow-lg hover:shadow-xl transition-all duration-300 transform hover:scale-105"
+              className="bg-movitec-orange hover:bg-orange-500 text-white font-bold px-10 py-4 text-lg rounded-full shadow-lg hover:shadow-xl transition-all duration-300 transform hover:scale-105"
             >
               Descargar para Android
             </Button>
           </div>
           
           <div className="text-blue-200">
-            <p className="text-lg">
-              🎉 <strong>Oferta de Lanzamiento:</strong> ¡Obtén 100 MoviCoins gratis al registrarte!
+            <p className="text-lg font-medium">
+              🎉 <strong className="text-white">Oferta de Lanzamiento:</strong> ¡Obtén 100 MoviCoins gratis al registrarte!
             </p>
           </div>
         </div>

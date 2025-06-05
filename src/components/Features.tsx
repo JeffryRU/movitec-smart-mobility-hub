@@ -5,19 +5,19 @@ import { Card, CardContent } from "@/components/ui/card";
 const Features = () => {
   const features = [
     {
-      icon: <Bus className="w-12 h-12 text-movitec-blue" />,
+      icon: <Bus className="w-12 h-12 text-white" />,
       title: "Seguimiento de Autobuses en Tiempo Real",
       description: "Sabe exactamente cuándo llegará tu autobús con seguimiento GPS en vivo y predicciones precisas.",
       color: "from-movitec-blue to-blue-600"
     },
     {
-      icon: <QrCode className="w-12 h-12 text-movitec-orange" />,
+      icon: <QrCode className="w-12 h-12 text-white" />,
       title: "Pagos con Código QR",
       description: "Paga al instante con escaneo seguro de código QR. Sin efectivo, sin tarjetas, solo comodidad.",
       color: "from-movitec-orange to-orange-500"
     },
     {
-      icon: <MapPin className="w-12 h-12 text-movitec-celeste" />,
+      icon: <MapPin className="w-12 h-12 text-white" />,
       title: "Fidelización MoviCoins",
       description: "Gana MoviCoins con cada viaje y desbloquea recompensas exclusivas y descuentos.",
       color: "from-cyan-400 to-movitec-celeste"
